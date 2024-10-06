@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesibilidad Web</title>
+    <link rel="stylesheet" href="style-accesibilidadWeb.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Menú de navegación-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="margin-right: 50px;" href="index.html">Principal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="margin-right: 50px;" aria-current="page" href="usabilidadWeb.html">Usabilidad Web</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="margin-right: 50px;" aria-current="page" href="#">Accesibilidad Web</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="margin-right: 50px;" aria-current="page" href="dcu.html">Diseño Web Centrado en el Usuario</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin Menú de navegación-->
+
+    <header>
+        <h1 class="header-content ">Accesibilidad Web</h1>
+    </header>
+
+    <section class="container">
+        <p>La accesibilidad web hace referencia a que cualquier persona sin importan discapacidades, edad, entre otros
+            puedan acceder y disfrutar de estos contenidos sin tener restricciones por sus condiciones especiales,
+            cuando esto se cumple se podría decir que el sitio fue diseñado y codificado propiamente.
+        </p>
+        <p>Es importante mencionar que un concepto como el de la accesibilidad web permite cambiar radicalmente el
+            impacto de por ejemplo una enfermedad, ya que se intenta eliminar las barreras y permitir a todos los
+            usuarios tener una buena experiencia.
+        </p>
+        <p>
+            Cabe recalcar que la accesibilidad web no solo engloba a personas con discapacidades, sino que también
+            pueden ser limitantes de hardware, como por ejemplo acceder al sitio desde un móvil, relojes inteligentes,
+            televisores inteligentes, entre otros.
+        </p>
+        <p>
+            Cuando un sitio se desarrolla propiamente estamos permitiendo una inclusión para todos los usuarios, lo que
+            puede permitir una mayor audiencia. Cabe recalcar que en algunos países la accesibilidad web es un tema de
+            obligación legal.
+        </p>
+        <div class="quote">
+            <h2>
+                "El poder de la Web está en su universalidad.
+                El acceso para cualquier persona, independientemente de las discapacidades, es un aspecto esencial.
+            </h2>
+            <h3>Tim Berners-Lee, Director del W3C Director e inventor de la World Wide Web"</h3>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="principles">
+        <div class="container">
+            <h2>Principios de la Accesibilidad Web</h2>
+        <p>
+            Para describir los principios en accesibilidad web se suele utilizar el acrónimo proveniente del inglés
+            POUR, que hace referencia a Perceivable, Operable, Understandable and Robust, que en español sería
+            Perceptible, Operable, Comprensible y Robusto, a continuación se comentará un poco de ellos:
+        </p>
+        <img src="img-accesibilidad/pour-principle.png" alt="Imagen representativa del principio POUR" style="max-width: 100%; height: auto;">
+        <p>
+            <b>Perceptible:</b> este término hace referencia a que la información debe ser presentada de manera que los usuario
+            pueda entenderla y percibirla correctamente, por ejemplo, se puede utilizar alternativas de texto para
+            imágenes o contenido no textual.
+        </p>
+        <p>
+            <b>Operable:</b> este concepto se puede interpretar como el poder de navegar y operar la interfaz del sitio web con
+            facilidad, podemos utilizar el ejemplo de que el sitio se pueda manejar correctamente tanto con el ratón
+            como con atajos en el teclado.
+        </p>
+        <p>
+            <b>Comprensible:</b> el sitio web debe ser claro y seguir un formato para que el usuario entienda correctamente
+            como funciona el sitio y además poder predecir las siguientes pantallas.
+        </p>
+        <p>
+            <b>Robusto:</b> el contenido debe ser lo suficientemente robusto como para ser interpretado por una amplia gama de
+            dispositivos y tecnologías, incluidas herramientas de asistencia como lectores de pantalla.
+        </p>
+        </div>
+    </section>
+
+    <section class="carrousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img-accesibilidad/texto-alternativo.png" alt="Imagen representativa a texto alternativo" style="max-width: 100%; height: auto;">
+              </div>
+              <div class="carousel-item">
+                <img src="img-accesibilidad/accesibilidad04.png" alt="Imagen representativa de la accesibilidad web" style="max-width: 100%; height: auto;">
+              </div>
+              <div class="carousel-item">
+                <img src="img-accesibilidad/accesibilidad-web.jpg" alt="Imagen representativa de la accesibilidad web" style="max-width: 100%; height: auto;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <hr>
+
+    <footer>
+        <div class="footer container">
+            <p>© 2024 Todos los derechos reservados.</p>
+            <p>Universidad Técnica Nacional UTN | Investigación 2 | David Oporta</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
